@@ -1,0 +1,180 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+header {
+  background-image: url(../img/mediterranean.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin: 0;
+}
+
+@media screen and (max-width: 340px) {
+  header {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+  }
+}
+
+.logo {
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  width: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.top {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 340px) {
+  .top {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top {
+    margin-top: 0;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.conteneur {
+  width: 100%;
+  height: 500px;
+}
+
+.funky {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 200px;
+}
+
+a {
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+  color: red;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.card {
+  margin: 30px;
+  background-color: #f5f5f5;
+}
+
+.card:hover {
+  background-color: #f5f5f5;
+}
+
+.card-img-top {
+  width: 870;
+  height: 479;
+}
+
+footer {
+  background-color: #828181;
+  color: white;
+  text-align: center;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h {
+  font-size: 20px;
+  color: orange;
+}
+
+.thumb {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 340px) {
+  nav {
+    height: 100%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  a.nav-link {
+    font-size: 15px;
+  }
+}
+
+.intro {
+  font-size: 200px;
+  text-align: center;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  padding-top: 300px;
+}
+
+@media screen and (max-width: 340px) {
+  .intro {
+    font-size: 50px;
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    font-size: 70px;
+    padding-top: 90px;
+  }
+}
